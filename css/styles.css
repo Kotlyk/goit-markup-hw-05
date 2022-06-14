@@ -287,10 +287,32 @@ header .logo {
      display: block;
  }
  .work-item{
+    position: relative;
      margin-right: 30px;
  }
  .work-item:nth-last-child(-n+1){
      margin-right: 0;
+ }
+
+  .work-meta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+   background-color: rgba(47, 48, 58, 0.8);
+ }
+
+ .work-pre-title{
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 14px; 
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #FFFFFF;
  }
 
 /* team section */
