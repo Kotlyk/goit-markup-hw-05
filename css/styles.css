@@ -644,7 +644,7 @@ footer {
     position: relative;
     
  }
- .project-thumb::before{
+ .project-thumb::after{
     display: inline-block;
     content: '';
     position: absolute;
@@ -654,8 +654,9 @@ footer {
     opacity: 0;
  
  }
- .project-thumb:hover::before,
- .project-thumb:focus::before{
+ .project-thumb:hover::after,
+ .project-thumb:focus::after{
+    transform: translateY(-294px);
     opacity: 1;
  }
 
